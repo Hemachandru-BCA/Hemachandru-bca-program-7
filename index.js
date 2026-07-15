@@ -2,7 +2,7 @@
 // Create a React element using React.createElement()
 // Tag name: h1
 // Text: Welcome to React
-import {createElement} from 'react-dom/client';
+import {createElement, createRoot} from 'react-dom/client';
 
 const domRoot = React.createElement("div", {id: "root"}, createElement("h1", null, "Welome to React Framework"));                                       
 const rootElement = document.getElementById("root");
