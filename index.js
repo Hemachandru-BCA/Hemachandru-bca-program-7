@@ -3,13 +3,9 @@
 // Tag name: h1
 // Text: Welcome to React
 
-const domRoot = React.createElement(
-  "div", {id: "root"},
-  createElement("h1", null, "Welome to React Framework"
-               )
-);                                       
+const domRoot = React.createElement("h1", null, "Welome to React!");                                       
 const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+const root = ReactDOM.createRoot(rootElement);
 
 // TODO 3:
 // Render the element
