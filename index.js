@@ -5,8 +5,8 @@
 import {createElement} from 'react-dom/client';
 
 const domRoot = React.createElement("div", {id = "root"}, createElement("h1", null, "Welome to React Framework"));                                       
-const root = createRoot(document.getElementById("root"));
-
+const rootElement = document.getElementById("root");
+const root = createRoot(root);
 
 // TODO 3:
 // Render the element
