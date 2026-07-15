@@ -4,7 +4,7 @@
 // Text: Welcome to React
 import {createElement} from 'react-dom/client';
 
-const domRoot = React.createElement("div", {id = "root"}, createElement("h1", null, "Welome to React Framework"));                                       
+const domRoot = React.createElement("div", {id: "root"}, createElement("h1", null, "Welome to React Framework"));                                       
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
