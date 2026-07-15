@@ -4,9 +4,9 @@
 // Text: Welcome to React
 
 const domRoot = React.createElement("div", {id = "root"}, createElement("h1", null, "Welome to React Framework"));                                       
-const root = document.getElementById("root");
+const root = createRoot(document.getElementById("root"));
 
 
 // TODO 3:
 // Render the element
-const render = createRoot(root);
+root.render(<App />);
